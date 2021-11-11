@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Roboto:wght@900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 20px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: middle;
+    padding-top: 10px;
+    /* text-indent: 0px; */
+}
+
+p {
+    font-size: 12px;
+    line-height: normal;
+    padding-top: 12px;
+    font-weight: lighter;
+    font: lighter;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-align: justify; */
+    /* vertical-align: baseline; */
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 200px);
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.togglewrap {
+    display: flex;
+    gap: 10px;
+}
+
+.toggletext {
+    display: none;
+    position: absolute;
+    right: 70px;
+}
+
+.activetext {
+    display: block;
+}
+
+.togglewrap:hover .toggletext {
+    display: block;
+}
+
+
+/* .image img {
+    width: 300px;
+} */
+
+.active {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000000;
+    background-color: white !important;
+}
+
+.toggle {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: black;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.left {
+    width: 80px;
+    height: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    padding-left: 200px;
+    min-width: 450px;
+    height: 386px;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    background-image: url("../iimage/Mask\ Group\ 1.png");
+    background-position: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+}
+
+.content {
+    padding-left: 40px;
+    width: 550px;
+    height: 50%;
+    /* background-color: darkolivegreen; */
+}
+
+.right {
+    width: 80px;
+    height: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
